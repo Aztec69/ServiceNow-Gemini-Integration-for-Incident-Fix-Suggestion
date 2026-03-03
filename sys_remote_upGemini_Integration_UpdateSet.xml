@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-03 16:16:23">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Gemini Integration</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b6d55d9b83573210bb6056e0deaad32f</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>1137a95b83973210bb6056e0deaad300</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_f9f595db83573210bb6056e0deaad3bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>Gemini Integration</name><oauth2_profile/><protocol_name/><rest_endpoint>https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:02:48</sys_created_on><sys_id>f9f595db83573210bb6056e0deaad3bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gemini Integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_f9f595db83573210bb6056e0deaad3bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:02:48</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>-63933930</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>1137a95b83973210bb6056e0deaad301</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb43920650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table/>
+<target_name>Gemini Integration</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>ef56951f855732103832207b1a924dec</update_guid>
+<update_guid_history>ef56951f855732103832207b1a924dec:-63933930</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_51eb151783973210bb6056e0deaad305</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;!current.short_description.nil()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Generate AI Suggestion Fix&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function(current, previous, gs, action) {
+    try {
+        // 1. Initialize the REST Message confirmed in your 'Preview' screenshot
+        var r = new sn_ws.RESTMessageV2('Gemini Integration', 'POST'); 
+        
+        // 2. Build the prompt using the incident fields
+        var promptText = "Provide a concise technical fix for this incident.\n" +
+                         "Short Description: " + current.short_description + "\n" +
+                         "Description: " + current.description;
+
+        var requestBody = {
+            "contents": [{
+                "parts": [{ "text": promptText }]
+            }]
+        };
+
+        r.setRequestBody(JSON.stringify(requestBody));
+
+        // 3. Execute the call to the stable 2.5-flash-lite endpoint
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+
+        if (httpStatus == 200) {
+            var parsed = JSON.parse(responseBody);
+            
+            // 4. Drill down through the 'candidates' array to get the text
+            if (parsed.candidates &amp;&amp; parsed.candidates.length &gt; 0) {
+                var aiSuggestion = parsed.candidates[0].content.parts[0].text;
+                
+                // Update your new 'AI Fix' field and save the record
+                current.u_ai_fix_suggestion = aiSuggestion; 
+                current.update();
+                
+                gs.addInfoMessage("AI Fix generated successfully.");
+            }
+        } else {
+            gs.addErrorMessage("AI Service error (Status: " + httpStatus + "). Response: " + responseBody);
+        }
+    } catch (ex) {
+        gs.addErrorMessage("System Error: " + ex.message);
+    }
+    
+    // Refresh the form to show the data
+    action.setRedirectURL(current);
+})(current, previous, gs, action);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-03 15:29:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;51eb151783973210bb6056e0deaad305&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Generate AI Suggestion Fix&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_51eb151783973210bb6056e0deaad305&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-03 15:37:40&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;51eb151783973210bb6056e0deaad305&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-03 15:29:36&lt;/sys_created_on&gt;&lt;sys_id&gt;048c511783973210bb6056e0deaad34c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-03 15:29:36&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_action&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>155333555</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>1937a95b83973210bb6056e0deaad302</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb4590a8a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table>incident</table>
+<target_name>Generate AI Suggestion Fix</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>165e99d707973210980ccd4f6adfa89d</update_guid>
+<update_guid_history>165e99d707973210980ccd4f6adfa89d:155333555,908c1d17959732100e9ef6716442f178:-1803530742</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_43761ddb83573210bb6056e0deaad36a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="">4966d51f83573210bb6056e0deaad3d6</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:04:38</sys_created_on><sys_id>43761ddb83573210bb6056e0deaad36a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_43761ddb83573210bb6056e0deaad36a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:04:38</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>1154744970</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>1d37a95b83973210bb6056e0deaad301</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb43acd100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>a6c6dd1fea573210d0efaed1cc81ef50</update_guid>
+<update_guid_history>a6c6dd1fea573210d0efaed1cc81ef50:1154744970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_incident_u_ai_fix_suggestion</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_ai_fix_suggestion" table="incident"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>AI Fix Suggestion</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_ai_fix_suggestion</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>4000</max_length><name>incident</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:32</sys_created_on><sys_id>e75851df83573210bb6056e0deaad382</sys_id><sys_name>AI Fix Suggestion</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_incident_u_ai_fix_suggestion</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:32</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>54856588</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>5537a95b83973210bb6056e0deaad300</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb44122320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table>incident</table>
+<target_name>Incident.AI Fix Suggestion</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b75851dff8573210e1addab053c262a9</update_guid>
+<update_guid_history>b75851dff8573210e1addab053c262a9:54856588</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_2d2c419f83173210bb6056e0deaad3f1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="DELETE"&gt;&lt;action_name&gt;gen_ai_fix_btn&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;!current.short_description.nil()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Generate AI Suggestion&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    try {
+        // 1. Initialize the REST Message confirmed in your 'Preview' screenshot
+        var r = new sn_ws.RESTMessageV2('Gemini Integration', 'POST'); 
+        
+        // 2. Build the prompt using the form fields
+        var promptText = "Provide a concise technical fix for this incident.\n" +
+                         "Short Description: " + current.short_description + "\n" +
+                         "Description: " + current.description;
+
+        var requestBody = {
+            "contents": [{
+                "parts": [{ "text": promptText }]
+            }]
+        };
+
+        r.setRequestBody(JSON.stringify(requestBody));
+
+        // 3. Execute the call to the stable 2.5-flash-lite endpoint
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+
+        if (httpStatus == 200) {
+            var parsed = JSON.parse(responseBody);
+            // Extract the 'text' from the specific JSON path verified in your test
+            var aiSuggestion = parsed.candidates[0].content.parts[0].text;
+            
+            // 4. Update the 'AI Fix' field (u_ai_fix) and save
+            current.u_ai_fix = aiSuggestion;
+            current.update();
+            
+            gs.addInfoMessage("AI Fix generated successfully.");
+        } else {
+            gs.addErrorMessage("AI Service returned an error (Status: " + httpStatus + "). Please try again.");
+        }
+    } catch (ex) {
+        gs.addErrorMessage("System Error: " + ex.message);
+    }
+    
+    // Refresh the form to show the new data
+    action.setRedirectURL(current);
+})();]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-03 14:20:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2d2c419f83173210bb6056e0deaad3f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Generate AI Suggestion&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_2d2c419f83173210bb6056e0deaad3f1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-03 15:15:36&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2d2c419f83173210bb6056e0deaad3f1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-03 14:20:13&lt;/sys_created_on&gt;&lt;sys_id&gt;3f9cc99f83173210bb6056e0deaad33f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-03 14:21:05&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_action&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1766543711</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>5537a95b83973210bb6056e0deaad302</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb4492d5c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table>incident</table>
+<target_name>Generate AI Suggestion</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>286a9193f897321042275382af4729a7</update_guid>
+<update_guid_history>286a9193f897321042275382af4729a7:-1766543711,8b499513e1973210c576b0b2133e9a50:1358782893,849e89538a573210f262a192ea0252dc:-112005355,7cdccd9ffb17321095ddbadf4b819d8c:660439077,c0acc99ff2173210ba21f4799438e24d:-2066693358</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_25669ddb83573210bb6056e0deaad3ef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>key</name><rest_message_function display_value="POST">4966d51f83573210bb6056e0deaad3d6</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:04:38</sys_created_on><sys_id>25669ddb83573210bb6056e0deaad3ef</sys_id><sys_mod_count>1</sys_mod_count><sys_name>key</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_25669ddb83573210bb6056e0deaad3ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:26:14</sys_updated_on><value>AIzaSyDdRCYVnZArXUK3aX2HKvTA2MWvJpDfmw8</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>1999436271</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>5937a95b83973210bb6056e0deaad301</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb44e94800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table/>
+<target_name>key</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>7abbddd3fd9732107fee2ad98d095f02</update_guid>
+<update_guid_history>7abbddd3fd9732107fee2ad98d095f02:1999436271,62c6dd1fb85732101b5720a1881c204e:1230571142</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_incident_u_ai_fix_suggestion_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_ai_fix_suggestion" label="AI Fix Suggestion" language="en" table="incident"><sys_documentation action="INSERT_OR_UPDATE"><element>u_ai_fix_suggestion</element><help/><hint/><label>AI Fix Suggestion</label><language>en</language><name>incident</name><plural>AI Fix Suggestions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>335851df83573210bb6056e0deaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AI Fix Suggestion</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_incident_u_ai_fix_suggestion_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>709621447</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>5d37a95b83973210bb6056e0deaad300</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb44122480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table>incident</table>
+<target_name>Incident.AI Fix Suggestion</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>775851dfce57321059e94d70923072ab</update_guid>
+<update_guid_history>775851dfce57321059e94d70923072ab:709621447</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_headers_a2161ddb83573210bb6056e0deaad368</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message display_value="">f9f595db83573210bb6056e0deaad3bc</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:02:48</sys_created_on><sys_id>a2161ddb83573210bb6056e0deaad368</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_headers_a2161ddb83573210bb6056e0deaad368</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:02:48</sys_updated_on><value>application/json</value></sys_rest_message_headers></record_update>]]></payload>
+<payload_hash>-297767596</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>9137a95b83973210bb6056e0deaad302</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb43920070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>2b56951fc357321073c1a1e7534861e7</update_guid>
+<update_guid_history>2b56951fc357321073c1a1e7534861e7:-297767596</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_6f56951f83573210bb6056e0deaad3e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Gemini Integration [ Default GET ]</qualified_name><rest_endpoint>https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent</rest_endpoint><rest_message display_value="Gemini Integration">f9f595db83573210bb6056e0deaad3bc</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:02:48</sys_created_on><sys_id>6f56951f83573210bb6056e0deaad3e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_6f56951f83573210bb6056e0deaad3e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:02:48</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-1720121077</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>9537a95b83973210bb6056e0deaad301</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb439204a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>e356951fb4573210931ee2efcf10b7eb</update_guid>
+<update_guid_history>e356951fb4573210931ee2efcf10b7eb:-1720121077</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_4966d51f83573210bb6056e0deaad3d6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>{&#13;
+  "contents": [&#13;
+    {&#13;
+      "parts": [&#13;
+        {&#13;
+          "text": "Who is Donald Trump?"&#13;
+        }&#13;
+      ]&#13;
+    }&#13;
+  ]&#13;
+}</content><function_name>POST</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Gemini Integration [ POST ]</qualified_name><rest_endpoint>https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyDdRCYVnZArXUK3aX2HKvTA2MWvJpDfmw8</rest_endpoint><rest_message display_value="Gemini Integration">f9f595db83573210bb6056e0deaad3bc</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:04:38</sys_created_on><sys_id>4966d51f83573210bb6056e0deaad3d6</sys_id><sys_mod_count>4</sys_mod_count><sys_name>POST</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_4966d51f83573210bb6056e0deaad3d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:26:01</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-570771004</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>d137a95b83973210bb6056e0deaad301</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb44e623f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table/>
+<target_name>POST</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>b7ab9993d1973210a0698977e6b615e9</update_guid>
+<update_guid_history>b7ab9993d1973210a0698977e6b615e9:-570771004,907a51936c97321017eacbc802600662:-347697747,cfd7559ffa573210271063c0cda751d8:-1683693056,18e6515fea5732103fbd1914c42e094d:-939701031,6ec6dd1f5d5732109df21a92c11eb252:-735162319</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_bf1d96e3c0a801640190725e63f8ac80</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="bf1d96e3c0a801640190725e63f8ac80" sys_domain="global" table="incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>b75851df83573210bb6056e0deaad3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>caller_id</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>3f5851df83573210bb6056e0deaad3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_email</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>b35851df83573210bb6056e0deaad3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>category</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>3b5851df83573210bb6056e0deaad3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>subcategory</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>bf5851df83573210bb6056e0deaad3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cmdb_ci</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>375851df83573210bb6056e0deaad3ae</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_knowledge_article</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>bb5851df83573210bb6056e0deaad3ae</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>335851df83573210bb6056e0deaad3af</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>contact_type</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>b75851df83573210bb6056e0deaad3af</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>3f5851df83573210bb6056e0deaad3af</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>hold_reason</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>b35851df83573210bb6056e0deaad3b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_back_to_inprogress_date</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>3b5851df83573210bb6056e0deaad3b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>severity</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>bf5851df83573210bb6056e0deaad3b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>impact</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>375851df83573210bb6056e0deaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_on</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>bb5851df83573210bb6056e0deaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>urgency</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>335851df83573210bb6056e0deaad3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>b75851df83573210bb6056e0deaad3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>3f5851df83573210bb6056e0deaad3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>b35851df83573210bb6056e0deaad3b3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>3b5851df83573210bb6056e0deaad3b3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>20</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>bf5851df83573210bb6056e0deaad3b3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>21</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>375851df83573210bb6056e0deaad3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_ai_fix_suggestion</element><position>22</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>bb5851df83573210bb6056e0deaad3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cxs_table_search.xml</element><position>23</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>335851df83573210bb6056e0deaad3b5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>business_duration</element><position>24</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>f75851df83573210bb6056e0deaad3b5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_alternate_id</element><position>25</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>7f5851df83573210bb6056e0deaad3b5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_task_test</element><position>26</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>f35851df83573210bb6056e0deaad3b6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_home_address</element><position>27</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:11:33</sys_created_on><sys_id>7b5851df83573210bb6056e0deaad3b6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:11:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2004-07-14 19:25:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>bf1d96e3c0a801640190725e63f8ac80</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_overrides/><sys_package display_value="Incident Updates" source="com.snc.incident.updates">9ea7ee7a150422104f3415f71eacd9f7</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_bf1d96e3c0a801640190725e63f8ac80</sys_update_name><sys_updated_by>system_bootstrap</sys_updated_by><sys_updated_on>2004-12-13 18:05:34</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1232190523</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>d937a95b83973210bb6056e0deaad302</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb441230a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table>incident</table>
+<target_name>Incident</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>3b5851df7e573210b0ca5e5cdffe41b9</update_guid>
+<update_guid_history>3b5851df7e573210b0ca5e5cdffe41b9:1232190523,d9385d9fe0573210a2b52486b1744f6c:1414139096,73db895ff11732104615681252566a9e:-1757810106,7c98cd1bad1732108b44d17379122ea9:-792619734,95a102ac015272109c453d9313b65ca6:1414139096,a636593fc530b2102e0f63895e11351f:1908010452,4bb56cf6993476107df10d1abc1ce547:-1093463070,0d2193da4af8f2104adf5f9e14033a94:615798744,b72748063b787210ed83e53ec1aea5ec:1526784584,f89344022a787210f2768e6012465161:615798744,6f58963157fc3210d9ca9e8924b6861f:1526784584,188929f49a8836108b9dec777e8932eb:615798744,ff0541ec22672210074ed1dc5ccffc09:-1292379666,8782c5e8ed67221004eb0b7bb51b95c1:1764873618,fd100c8086e722106d9a10132b6dde4e:187877730,bac6425c1e5722108e8501bef6b146c2:-1440490802,3fa6ce1cb65722101edbdde1c3ab5f36:68566042,1c20008334a22210f241772ad9b7b0ce:-1683006152,3fe277a1c1e622108f3c7a5cc6a0cf26:290489400,6fc273a11ce622108f5a6b40a737b4cf:-1980343261,d3804e4940622210eea3772ddc27d210:-1891313474,c51f35c5e8622210e506c987b2d02e54:1853899846,97a82d4ca12a62108762ae05670b8005:-1468405891,258049b783d22210109f8b686f26a91b:-1915942892,2d800d7754d222104f52beb2a0a5863e:-1481541142</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_headers_1ef5d1db83573210bb6056e0deaad3fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>key</name><rest_message display_value="Gemini Integration">f9f595db83573210bb6056e0deaad3bc</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 15:02:48</sys_created_on><sys_id>1ef5d1db83573210bb6056e0deaad3fd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>key</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_headers_1ef5d1db83573210bb6056e0deaad3fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 15:25:47</sys_updated_on><value>AIzaSyDdRCYVnZArXUK3aX2HKvTA2MWvJpDfmw8</value></sys_rest_message_headers></record_update>]]></payload>
+<payload_hash>-1114024750</payload_hash>
+<remote_update_set display_value="Gemini Integration">1137a95b83973210bb6056e0deaad300</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-03 16:16:22</sys_created_on>
+<sys_id>dd37a95b83973210bb6056e0deaad301</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cb44e2a1a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-03 16:16:22</sys_updated_on>
+<table/>
+<target_name>key</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>5cab955337973210f534546cc79c4ce4</update_guid>
+<update_guid_history>5cab955337973210f534546cc79c4ce4:-1114024750,275699db4a5732102982b012b937f4cc:778101330</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
